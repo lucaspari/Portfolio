@@ -15,10 +15,15 @@ export const Header = () => {
         </HStack>
         <Box
           className="boxButton"
+          data-testid="boxButton"
           onClick={toggleColorMode}
           alignSelf={"center"}
         >
-          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+          {colorMode === "light" ? (
+            <MoonIcon data-testid="moon" />
+          ) : (
+            <SunIcon data-testid="sun" />
+          )}
         </Box>
       </Flex>
     </div>
