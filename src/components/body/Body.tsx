@@ -1,7 +1,14 @@
 import React from "react";
-import { Box, HStack, Stack, Text } from "@chakra-ui/react";
+import { Box, HStack, Stack, Text, Image, Flex } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareJs } from "@fortawesome/free-brands-svg-icons";
+import Js from "../../assets/js.svg";
+import Ts from "../../assets/ts.svg";
+import reactIcon from "../../assets/react.svg";
+import javaColored from "../../assets/javacolored.svg";
+import nodeJs from "../../assets/nodeJs.svg";
+import python from "../../assets/python.svg";
+import html from "../../assets/html.svg";
+import css from "../../assets/css.svg";
 import "./index.css";
 export const Body = () => {
   return (
@@ -23,16 +30,42 @@ export const Body = () => {
             comfortable with:
           </Text>
         </Stack>
-        <HStack mt={2}>
-          <Stack className="javascript">
-            <div className="icons8-javascript"></div>
-            <Text className="javascript">Javascript</Text>
+        <Flex justifyContent={"space-between"} mt={4}>
+          <Stack>
+            <img className="javascript" src={Js}></img>
+            <Text className="text-center">Javascript</Text>
           </Stack>
-          <Stack className="typescript">
-            <div className="icons8-typescript typescript"></div>
-            <Text>Typescript</Text>
+          <Stack>
+            <img className="typescript" src={Ts}></img>
+            <Text className="text-center">Typescript</Text>
           </Stack>
-        </HStack>
+          <Stack>
+            <img className="react" src={reactIcon}></img>
+            <Text className="text-center">React</Text>
+          </Stack>
+          <Stack>
+            <img src={javaColored}></img>
+            <Text className="text-center">Java</Text>
+          </Stack>
+        </Flex>
+        <Flex justifyContent={"space-between"} mt={4}>
+          <Stack>
+            <img src={nodeJs}></img>
+            <Text className="text-center">Node.js</Text>
+          </Stack>
+          <Stack>
+            <img src={html}></img>
+            <Text className="text-center">HTML</Text>
+          </Stack>
+          <Stack>
+            <img src={css}></img>
+            <Text className="text-center">CSS</Text>
+          </Stack>
+          <Stack>
+            <img src={python}></img>
+            <Text className="text-center">Python</Text>
+          </Stack>
+        </Flex>
       </Box>
     </Box>
   );
