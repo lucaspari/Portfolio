@@ -2,7 +2,7 @@ import { Header } from "./components/header/Header";
 import "./index.css";
 import { Box, Text } from "@chakra-ui/react";
 import { Body } from "./components/body/Body";
-import { MyTimeline } from "./components/timeline/MyTimeline";
+import { Timeline } from "./components/timeline/Timeline";
 function App() {
   return (
     <div className="wrapper">
@@ -16,7 +16,7 @@ function App() {
         <Body />
       </section>
       <section>
-        <MyTimeline />
+        <Timeline />
       </section>
     </div>
   );
