@@ -1,6 +1,7 @@
 import { Header } from "./components/header/Header";
 import "./index.css";
 import { Box, Text } from "@chakra-ui/react";
+import { Body } from "./components/body/Body";
 function App() {
   return (
     <div className="wrapper">
@@ -10,6 +11,9 @@ function App() {
           Hello, I'm Lucas Pari
         </Text>
       </Box>
+      <section>
+        <Body />
+      </section>
     </div>
   );
 }

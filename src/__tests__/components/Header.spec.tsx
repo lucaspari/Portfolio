@@ -13,7 +13,6 @@ jest.mock("@chakra-ui/react", () => {
 });
 it("should render the header", () => {
   const { container } = render(<Header />);
-  console.log(container);
   expect(container).toBeTruthy();
 });
 it("it renders Sun Icon", () => {

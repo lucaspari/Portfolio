@@ -20,9 +20,9 @@ export const Header = () => {
           alignSelf={"center"}
         >
           {colorMode === "light" ? (
-            <MoonIcon data-testid="moon" />
+            <MoonIcon boxSize={7} data-testid="moon" />
           ) : (
-            <SunIcon data-testid="sun" />
+            <SunIcon boxSize={7} data-testid="sun" />
           )}
         </Box>
       </Flex>
