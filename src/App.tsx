@@ -7,18 +7,13 @@ import { Contact } from "./components/contact/Contact";
 import { Footer } from "./components/footer/Footer";
 import { useTranslation } from "react-i18next";
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = () => {
-    console.log(`entrou`);
-
-    i18n.changeLanguage("pt-br");
-  };
   return (
     <div className="wrapper">
       <Header />
       <Box p={"2em"}>
-        <Text onClick={changeLanguage} as="b" fontSize={"3xl"}>
+        <Text as="b" fontSize={"3xl"}>
           {t("Hello, I'm Lucas Pari")}
         </Text>
       </Box>

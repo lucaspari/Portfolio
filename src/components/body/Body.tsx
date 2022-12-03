@@ -10,16 +10,15 @@ import python from "../../assets/python.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import "./index.css";
+import { useTranslation } from "react-i18next";
 export const Body = () => {
+  const { t } = useTranslation();
   return (
     <Box p={"2em"}>
       <Text mb={8} fontSize={"xl"}>
-        I've started my journey as a software developer when I entered in
-        college and fell in love with programming and solving problems. I Had
-        the opportunity of solving major problems on logistics system that were
-        very challenging at the time with Vue.js and MYSQL. Nowadays I'm trying
-        to get better at React.js and Java, so my ultimate goal is to find a job
-        vacancy that works with these technologies to improve myself.
+        {t(
+          "I've started my journey as a software developer when I entered in college and fell in love with programming and solving problems. I Had the opportunity of solving major problems on logistics system that were very challenging at the time with Vue.js and MYSQL. Nowadays I'm trying to get better at React.js and Java, so my ultimate goal is to find a job vacancy that works with these technologies to improve myself."
+        )}
       </Text>
       <Box>
         <Stack>
@@ -27,8 +26,9 @@ export const Body = () => {
             Tech Skills
           </Text>
           <Text fontSize={"xl"}>
-            Here are some of the technologies and tools I'm proficient and
-            comfortable with:
+            {t(
+              "Here are some of the technologies and tools I'm proficient and comfortable with:"
+            )}
           </Text>
         </Stack>
         <Flex justifyContent={"space-between"} mt={4}>

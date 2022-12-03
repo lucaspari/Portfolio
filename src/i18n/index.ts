@@ -4,9 +4,7 @@ import PTBR from "./locales/pt/pt-br.json";
 import ESUS from "./locales/en/en-us.json";
 const resources = {
   pt: {
-    translation: {
-      "Hello, I'm Lucas Pari": "Olá, me chamo Lucas Pari",
-    },
+    translation: PTBR,
   },
   en: {
     translation: { "Hello, I'm Lucas Pari": "Hello, I'm Lucas Pari" },
