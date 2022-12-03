@@ -17,8 +17,9 @@ export const Body = () => {
         I've started my journey as a software developer when I entered in
         college and fell in love with programming and solving problems. I Had
         the opportunity of solving major problems on logistics system that were
-        very challenging at the time with Java, NodeJS among others. Since then
-        I try to get better myself every day.
+        very challenging at the time with Vue.js and MYSQL. Nowadays I'm trying
+        to get better at React.js and Java, so my ultimate goal is to find a job
+        vacancy that works with these technologies to improve myself.
       </Text>
       <Box>
         <Stack>
