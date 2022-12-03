@@ -3,6 +3,8 @@ import "./index.css";
 import { Box, Text } from "@chakra-ui/react";
 import { Body } from "./components/body/Body";
 import { Timeline } from "./components/timeline/Timeline";
+import { Contact } from "./components/contact/Contact";
+import { Footer } from "./components/footer/Footer";
 function App() {
   return (
     <div className="wrapper">
@@ -17,6 +19,12 @@ function App() {
       </section>
       <section>
         <Timeline />
+      </section>
+      <section>
+        <Contact />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );
