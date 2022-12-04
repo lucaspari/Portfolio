@@ -44,6 +44,7 @@ export const Header = () => {
           </Box>
           <Box className="flex">
             <img
+              data-testid="brazil"
               onClick={() => {
                 changeLanguage("pt");
               }}
@@ -56,6 +57,7 @@ export const Header = () => {
                 changeLanguage("en");
               }}
               src={eua}
+              data-testid="eua"
               className="cursor-pointer"
               alt="eua_flag"
             />
