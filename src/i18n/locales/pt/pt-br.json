@@ -1,5 +1,19 @@
 {
   "Hello, I'm Lucas Pari": "Olá, me chamo Lucas Pari",
   "I've started my journey as a software developer when I entered in college and fell in love with programming and solving problems. I Had the opportunity of solving major problems on logistics system that were very challenging at the time with Vue.js and MYSQL. Nowadays I'm trying to get better at React.js and Java, so my ultimate goal is to find a job vacancy that works with these technologies to improve myself.": "Eu comecei minha jornada como engenheiro de software quando entrei na faculdade e me apaixonei por programação e solucionar problemas. Eu tive a oportunidade de resolver grandes problemas em sistemas logísticos que foram bem desafiantes na época com Vue.js e MYSQL. Nos dias de hoje estou estudando React.js e Java, e meu objetivo é encontrar uma vaga com as tecnologias descritas para melhorar a mim mesmo.",
-  "Here are some of the technologies and tools I'm proficient and comfortable with:": "Aqui estão algumas das tecnologias e ferramentas que tenho proficiência e me sinto confortável utlizando"
+  "Here are some of the technologies and tools I'm proficient and comfortable with:": "Aqui estão algumas das tecnologias e ferramentas que tenho proficiência e me sinto confortável utlizando",
+  "November 2020 - March 2021": "Novembro 2020 - Março 2021",
+  "Fullstack Developer Internship": "Estágio Desenvolvedor Fullstack",
+  "Developing in C# creating new features with WebForms": "Desenvolvendo em C#, criando novos recurso com WebForms",
+  "Using MYSQL as database to store the client data.": "Usando MYSQL como banco de dados para armanezar dados do cliente",
+  "May 2021 - April 2022": "Maio 2021 - Abril 2022",
+  "Web Developer Internship": "Estágio em desenvolvimento web",
+  "Developing Logistics systems to tax calculation systems, using VueJs, Huawei Cloud and MySQL": "Desenvolvendo sistemas logísticos a sistemas de taxa de imposto usando VueJs, Huawei Cloud e MySQL",
+  "March 2022 - August 2022": "Março 2022 - Agosto 2022",
+  "Frontend Web Developer Jr.": "Desenvolvedor Frontend Jr",
+  "Refactoring Code and focusing on unit tests with Jest to avoid bugs in production environment": "Refatorando o código focando em testes de unidade com Jest para evitar bugs em ambiente de produção",
+  "August 2022 - October 2022": "Agosto 2022 - Outubro 2022",
+  "Desenvolvedor Frontend": "Desenvolvedor Frontend Pleno",
+  "Refactoring the code from junior developers and starting to measure the performance of the portal": "Refatorando o código de desenvolvedores junior e começando a medir a performance do portal",
+  "Portal support, solving bugs and creating new features": "Suporte do portal, resolvendo bugs e criando novos recursos"
 }
