@@ -29,7 +29,7 @@ export const Footer = () => {
         </a>
         <a
           className="hover:text-[#00cc99]"
-          href="https://github.com/dumbleedore"
+          href="https://github.com/lucaspari"
         >
           <FontAwesomeIcon size="2x" icon={faGithub}></FontAwesomeIcon>
         </a>
