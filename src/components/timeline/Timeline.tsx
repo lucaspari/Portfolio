@@ -14,7 +14,7 @@ export const Timeline = () => {
               {t("November 2020 - March 2021")}
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("Fullstack Developer Internship")}
+              {t("Seiren do Brasil • Fullstack Developer Internship")}
             </h3>
             <p className=" text-base font-normal text-gray-500 dark:text-gray-400">
               - {t("Developing in C# creating new features with WebForms")}
@@ -29,7 +29,7 @@ export const Timeline = () => {
               {t("May 2021 - April 2022")}
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("Web Developer Internship")}
+              {t(" HUAWEI Facens • Web Developer Internship")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               -{" "}
@@ -44,7 +44,7 @@ export const Timeline = () => {
               {t("March 2022 - August 2022")}
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("Frontend Web Developer Jr.")}
+              {t("HUAWEI Facens • Frontend Web Developer Jr.")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               -{" "}
@@ -59,7 +59,7 @@ export const Timeline = () => {
               {t("August 2022 - October 2022")}
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("Frontend Web Developer.")}
+              {t("HUAWEI Facens • Frontend Web Developer.")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               -{" "}
