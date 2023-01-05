@@ -13,7 +13,7 @@ export const Timeline = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {t("November 2020 - March 2021")}
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold ">
               {t("Seiren do Brasil • Fullstack Developer Internship")}
             </h3>
             <p className=" text-base font-normal text-gray-500 dark:text-gray-400">
@@ -28,7 +28,7 @@ export const Timeline = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {t("May 2021 - April 2022")}
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold">
               {t(" HUAWEI Facens • Web Developer Internship")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -43,7 +43,7 @@ export const Timeline = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {t("March 2022 - August 2022")}
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold">
               {t("HUAWEI Facens • Frontend Web Developer Jr.")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -58,7 +58,7 @@ export const Timeline = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {t("August 2022 - October 2022")}
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="text-lg font-semibold">
               {t("HUAWEI Facens • Frontend Web Developer.")}
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
