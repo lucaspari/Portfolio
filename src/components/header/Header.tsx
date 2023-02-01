@@ -24,7 +24,7 @@ export const Header = () => {
     <div className="header">
       <Flex justifyContent={"space-between"}>
         <HStack>
-          <Image borderRadius="full" boxSize="3em" src={Me} alt="Dan Abramov" />
+          <Image borderRadius="full" boxSize="3em" src={Me} alt="Lucas Pari" />
           <Text fontSize={"2xl"} color="green.400">
             lucaspari.dev
           </Text>

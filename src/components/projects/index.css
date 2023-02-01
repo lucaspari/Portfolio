@@ -1,0 +1,12 @@
+
+img{
+    height: auto;
+}
+.card{
+    width: 300px;
+    border-radius: 1rem;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.04);
+}

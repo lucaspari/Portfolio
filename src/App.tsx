@@ -6,6 +6,7 @@ import { Timeline } from "./components/timeline/Timeline";
 import { Contact } from "./components/contact/Contact";
 import { Footer } from "./components/footer/Footer";
 import { useTranslation } from "react-i18next";
+import { Project } from "./components/projects/Project";
 function App() {
   const { t } = useTranslation();
 
@@ -24,11 +25,15 @@ function App() {
         <Timeline />
       </section>
       <section>
+       <Project/>
+      </section>
+      <section>
         <Contact />
       </section>
       <section>
         <Footer />
       </section>
+
     </div>
   );
 }
