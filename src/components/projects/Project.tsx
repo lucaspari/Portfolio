@@ -11,11 +11,11 @@ export const Project = () => {
         <Text className='mb-2' fontSize={"3xl"}>
         Projects
         </Text>
-        <Box>
-        <ProjectCard title='Movietify' img={movie} content={
-          t("Simple project where an user types a name of a movie and gets the answer from an api called movieDatabase")
-        }></ProjectCard>
+        <Box className='grid grid-cols-2'>
+          <ProjectCard title='Movietify' img={movie} content={
+            t("Simple project where an user types a name of a movie and gets the answer from an api called movieDatabase")
+          }/>
         </Box>
-        </Box>
+    </Box>
   )
 }
