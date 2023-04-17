@@ -7,6 +7,7 @@ import {
   Flex,
   Box,
   Stack,
+  useMediaQuery,
 } from "@chakra-ui/react";
 
 import Me from "../../assets/me.jpg";
@@ -17,14 +18,17 @@ import eua from "../../assets/eua.png";
 export const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const { i18n } = useTranslation();
+  const [isLargerThan700] = useMediaQuery('(min-width: 700px)')
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
   };
   return (
     <div className="header">
-      <Flex justifyContent={"space-between"}>
+
+      <Flex gap={'3'} alignItems={isLargerThan700 ? '' : 'center'} flexDirection={isLargerThan700 ? 'row' : 'column'} justifyContent={"space-between"}>
+      
         <HStack>
-          <Image borderRadius="full" boxSize="3em" src={Me} alt="Dan Abramov" />
+          <Image borderRadius="full" boxSize="3em" src={Me} alt="Lucas Pari" />
           <Text fontSize={"2xl"} color="green.400">
             lucaspari.dev
           </Text>

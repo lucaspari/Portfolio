@@ -17,5 +17,6 @@
   "Refactoring the code from junior developers and starting to measure the performance of the portal": "Refatorando o código de desenvolvedores junior e começando a medir a performance do portal",
   "Portal support, solving bugs and creating new features": "Suporte do portal, resolvendo bugs e criando novos recursos",
   "If you want to reach me out please drop me an": "Se deseja entrar em contato comigo, me mande um",
-  "You can also check out my social media presence following the links below.": "Você também pode visitar minhas redes sociais, link abaixo."
+  "You can also check out my social media presence following the links below.": "Você também pode visitar minhas redes sociais, link abaixo.",
+  "Simple project where an user types a name of a movie and gets the answer from an api called movieDatabase" : "Projeto simples onde o usuário digita o nome de um filme e recebe um filme de uma api chamada movieDatabase"
 }
