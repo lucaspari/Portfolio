@@ -14,13 +14,17 @@ export const Projects = () => {
           name="Sofa Card"
           image={Sofa}
           github="https://github.com/lucaspari/Bora-Codar-02"
-          description="This project presents a simple sofa Card, that was built with CSS, HTML and Javascript"
+          description={t(
+            "A simple sofa card, that was built with CSS, HTML and Javascript"
+          )}
         ></CardProject>
         <CardProject
           name="Music Player"
           github="https://github.com/lucaspari/Bora-Codar-01"
           image={MusicPlayer}
-          description="This project presents 3 versions of a music player card built with CSS and HTML"
+          description={t(
+            "This project presents 3 versions of a music player card built with CSS and HTML"
+          )}
         ></CardProject>
       </SimpleGrid>
     </Box>
